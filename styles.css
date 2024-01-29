@@ -1,0 +1,297 @@
+* {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@font-face {
+  font-family: 'StopBuck';
+  src: url(Font/Stopbuck.otf) format(truetype);
+  src: url(Font/Stopbuck.ttf) format(truetype);
+}
+
+/* DIMENSION DES IMAGES */
+.img2,
+.img4 {
+  position: absolute;
+  background-size: cover;
+  right: 4%;
+  bottom: 10%;
+  height: 70vh;
+  width: 35vw;
+}
+
+
+
+/* --------------------------------------------- */
+
+
+img {
+  position: absolute;
+  background-size: cover;
+  right: 5%;
+  bottom: 5%;
+  height: 80vh;
+  width: 30vw;
+}
+
+h2 {
+  color: black;
+  font-size: 3rem;
+  text-transform: uppercase;
+  margin-left: 2vh;
+  background-color: rgba(255, 255, 255, 0.4);
+  padding: 5px;
+  display: inline-block;
+  position: relative;
+  top: 15%;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h3 {
+  color: black;
+  font-size: 2rem;
+  text-transform: uppercase;
+  margin-left: 2vh;
+  background-color: rgba(255, 255, 255, 0.4);
+  padding: 5px;
+  display: inline-block;
+  position: relative;
+  top: 25%;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.p0,
+.p1,
+.p2,
+.p3,
+.p4,
+.p5,
+.p6,
+.p7 {
+  color: black;
+  font-size: 2rem;
+  margin-right: 100vh;
+  margin-left: 5vh;
+  background-color: rgba(255, 255, 255, 0.4);
+  padding: 5px;
+  display: inline-block;
+  position: relative;
+  top: 35%;
+}
+
+body {
+  background-color: rgb(60, 60, 60);
+}
+
+section {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+}
+
+footer {
+  background-color: gray;
+}
+
+footer a {
+  color: blue;
+  font-size: 1rem;
+  text-decoration: underline;
+}
+
+/* HEADER */
+@keyframes clignote {
+  50% {
+    opacity: 0;
+  }
+}
+
+h1 {
+  color: white;
+  font-size: 5rem;
+  margin-bottom: 20px;
+  font-family: "StopBuck";
+}
+
+header {
+  height: 100vh;
+  width: 100vw;
+  background-color: blue;
+  background-size: cover;
+}
+
+.menu {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  background-color: #0D7CFF;
+}
+
+.clignote:nth-child(odd) {
+  color: #ffffff;
+  animation: clignote 2s linear infinite;
+}
+
+/* ------------------------------------------ */
+/* FORMULAIRE */
+fieldset {
+  border-color: black;
+  border-left-width: 5px;
+  max-width: 320px;
+  margin: auto;
+  background-color: grey;
+  padding: 20px;
+}
+
+input[type='submit'] {
+  border-radius: 10px 10px 10px 10px;
+  padding: 10px;
+  width: 120px;
+  position: relative;
+  left: 54%;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+
+}
+
+input[type='submit']:hover {
+  background-color: white;
+  border: solid 2px black;
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.5s
+}
+
+:required {
+  border-color: red;
+}
+
+input:required:valid {
+  border-color: green;
+}
+
+Select {
+  background-color: white;
+}
+
+legend {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  font-weight: bold;
+  border-radius: 10px 10px 10px 10px
+}
+
+input[type="text"] {
+  padding: 5px;
+  width: 96%;
+}
+
+input[type="email"] {
+  padding: 5px;
+  width: 96%;
+}
+
+select {
+  width: 100%;
+  padding: 5px;
+}
+
+/* ------------------------------------------ */
+
+
+
+/* NAV BAR */
+.navbar {
+  background-color: black;
+  padding: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  box-sizing: border-box;
+  position: fixed;
+  z-index: 999;
+}
+
+.navbar .home {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+li {
+  position: relative;
+  padding: 0 20px;
+  height: 100%;
+  display: flex;
+}
+
+a {
+  z-index: 1;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.125rem;
+  padding: 10px 5px;
+}
+
+li::before {
+  content: "";
+  position: absolute;
+  height: 33.33%;
+  width: 0;
+  background-color: #0D7CFF;
+  right: 0;
+  z-index: 0;
+  top: 33.33%;
+  transition: all 0.5s;
+}
+
+li::after {
+  content: "";
+  position: absolute;
+  height: 33.33%;
+  width: 0;
+  background-color: #0D7CFF;
+  left: 0;
+  z-index: 0;
+  bottom: 0;
+  transition: all 0.5s;
+  border-radius: 0px 0px 20px 20px;
+}
+
+a::before {
+  position: absolute;
+  content: "";
+  height: 33.33%;
+  width: 0;
+  background-color: #0D7CFF;
+  bottom: 66.66%;
+  left: 0;
+  transition: all 0.5s;
+  border-radius: 20px 20px 0px 0px;
+}
+
+li:hover:before,
+li:hover::after,
+li:hover a::before {
+  width: 100%;
+}

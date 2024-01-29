@@ -1,0 +1,51 @@
+[
+    {
+        "analogie": "un film",
+        "valeursAnalogie": "Ready Player One",
+        "texteExplicatif": " Parce que j'apprécie l'aventure, l'innovation technologique et la possibilité de m'évader dans des mondes virtuels fascinants, tout en valorisant l'esprit de collaboration et la découverte de soi.",
+        "url": "img/Film.webp",
+        "replacee": "Affiche du Film Ready Player One"
+    },
+    {
+        "analogie": "un animal",
+        "valeursAnalogie": "un chat",
+        "texteExplicatif": " Parce que j'apprécie la tranquillité, le sommeil. Comme les chats, j'aime être indépendant tout en restant curieux. Je sais m'adapter aux différentes situations,et comme eux, je peux passer des moments seuls pour réfléchir, et j'adore manger.",
+        "url": "img/chat.webp",
+        "replacee": "Photo d un chat gris"
+    },
+    {
+        "analogie": "une couleur",
+        "valeursAnalogie": "le bleu",
+        "texteExplicatif": " Parce que le bleu est une couleur calme et paisible comme le ciel ou l'océan, et cela représente la diversité de mes émotions et expériences.",
+        "url": "img/couleurBleu.webp",
+        "replacee": "carré de couleur bleu"
+    },
+    {
+        "analogie": "un jeu vidéo",
+        "valeursAnalogie": "Cities Skylines",
+        "texteExplicatif": " Parce que j'aime être créatif, organiser les choses et réfléchir de manière stratégique, et j'apprécie de donner vie à des idées et de voir les résultats de mes efforts. Comme dans ce jeu.",
+        "url": "img/JeuVidéo.webp",
+        "replacee": "image du jeu Cities Skylines"
+    },
+    {
+        "analogie": "un élément",
+        "valeursAnalogie": "L'eau",
+        "texteExplicatif": " Parce que j'aime m'adapter aux différentes situations, tout comme l'eau prend la forme du récipient qui la contient. Je serais comme l'eau, fluide et capable de m'ajuster facilement aux changements.",
+        "url": "img/Eau.webp",
+        "replacee": "image de goutte d eau"
+    },
+    {
+        "analogie": "un fruit",
+        "valeursAnalogie": "le raisin",
+        "texteExplicatif": " Parce que j'aime la diversité et la polyvalence. Ma personnalité serait adaptable et capable de s'exprimer de différentes manières. De plus, tout comme le raisin peut être doux ou légèrement acidulé.",
+        "url": "img/Raisin.webp",
+        "replacee": "Photo de raison de couleur vert"
+    },
+    {
+        "analogie": "un super-héros",
+        "valeursAnalogie": "Flash",
+        "texteExplicatif": " Parce que j'aime faire les choses rapidement , être efficace afin de gagner du temps et je sais m'adapter à n'importe quelle situation.",
+        "url": "img/Flash.webp",
+        "replacee": "image du super-héros Flash"
+    }
+]
